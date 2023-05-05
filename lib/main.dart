@@ -39,6 +39,8 @@ class _randomState extends State<random> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text("Random IDs"),
+        centerTitle: true,
+        backgroundColor: Colors.redAccent,
         actions: [IconButton(onPressed: () {
           setState(() {});
         }, icon: Icon(Icons.refresh))],
